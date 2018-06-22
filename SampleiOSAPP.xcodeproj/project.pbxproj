@@ -10,6 +10,8 @@
 		03A43BBC20DD1C1E002A863F /* SampleiOSAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A43BB220DD1C1E002A863F /* SampleiOSAPP.framework */; };
 		03A43BC120DD1C1E002A863F /* SampleiOSAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A43BC020DD1C1E002A863F /* SampleiOSAPPTests.m */; };
 		03A43BC320DD1C1F002A863F /* SampleiOSAPP.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A43BB520DD1C1E002A863F /* SampleiOSAPP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03A43BCE20DD1C48002A863F /* FirstClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 03A43BCC20DD1C48002A863F /* FirstClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03A43BCF20DD1C48002A863F /* FirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A43BCD20DD1C48002A863F /* FirstClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		03A43BBB20DD1C1E002A863F /* SampleiOSAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleiOSAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A43BC020DD1C1E002A863F /* SampleiOSAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleiOSAPPTests.m; sourceTree = "<group>"; };
 		03A43BC220DD1C1F002A863F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A43BCC20DD1C48002A863F /* FirstClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstClass.h; sourceTree = "<group>"; };
+		03A43BCD20DD1C48002A863F /* FirstClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				03A43BB520DD1C1E002A863F /* SampleiOSAPP.h */,
 				03A43BB620DD1C1E002A863F /* Info.plist */,
+				03A43BCC20DD1C48002A863F /* FirstClass.h */,
+				03A43BCD20DD1C48002A863F /* FirstClass.m */,
 			);
 			path = SampleiOSAPP;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A43BCE20DD1C48002A863F /* FirstClass.h in Headers */,
 				03A43BC320DD1C1F002A863F /* SampleiOSAPP.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A43BCF20DD1C48002A863F /* FirstClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
